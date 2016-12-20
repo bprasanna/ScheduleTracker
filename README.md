@@ -18,3 +18,20 @@ Create a `schedule.dat` file with following format, in the same folder from wher
 ```
 
 Please note, the schedule time range uses 24h time format
+
+# To run
+Double click on the file, it will open the application window, where start, stop & font can be chosen
+
+# To make font work
+To make the font work, we need to install tkFontChooser
+
+*Without proxy:*
+
+`pip install tkFontChooser`
+
+*With proxy:*
+
+`pip install tkFontChooser --proxy=host:port`
+
+# Compatibility
+Runs in Python 3, in Python 2 some packages and methods usage need to be changed
