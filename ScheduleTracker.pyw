@@ -139,7 +139,7 @@ def getCurrentSchedule(hour,minutes):
        endTimeComponents = scheduleMatrix[i][1].split(":")
        if (currTime >= (int(startTimeComponents[0])*100)+int(startTimeComponents[1]) 
            and currTime <= (int(endTimeComponents[0])*100)+int(endTimeComponents[1])):
-           scheduleTxt = scheduleMatrix[i][2] +"till "+ scheduleMatrix[i][1]
+           scheduleTxt = scheduleMatrix[i][2] +" till "+ scheduleMatrix[i][1]
            break
    return scheduleTxt
 
