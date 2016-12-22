@@ -63,7 +63,7 @@ def loadScheduleData():
             scheduleText = scheduleEntry[1]
             scheduleMatrix[sCount][0] = scheduleStartTime
             scheduleMatrix[sCount][1] = scheduleEndTime
-            scheduleMatrix[sCount][2] = scheduleText
+            scheduleMatrix[sCount][2] = scheduleText.strip()
             if scheduleEntryLength == 3 :
                  scheduleMatrix[sCount][3] = scheduleEntry[2]
             sCount += 1
@@ -190,4 +190,3 @@ B3.grid(row=2,column=1)
 
 top.title("Schedule Tracker")
 top.mainloop()
-   
